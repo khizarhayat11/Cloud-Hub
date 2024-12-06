@@ -27,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function animate() {
-        // Smoothly interpolate between current and target rotations
         currentRotateX += (targetRotateX - currentRotateX) * 0.1;
         currentRotateY += (targetRotateY - currentRotateY) * 0.1;
 
