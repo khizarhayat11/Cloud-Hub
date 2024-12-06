@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en" data-theme="light" >
+<head>
+  <!-- Meta Tags for SEO and Responsiveness -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Cloud-Hub is a platform for creating, inspecting, and applying synthetic surveillance broadly.">
+  <meta name="author" content="Cloud-Hub">
+  <meta name="generator" content="Cloud-Hub 0.0.1">
+
+  <!-- Page Title -->
+  <title>Cloud-Hub</title>
+
+  <!-- External CSS Dependencies -->
+  <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg" type="image/svg+xml">
+
+  <!-- Custom CSS file -->
+  <link href="./assets/dist/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Header Section
+    ================================================== -->
+  <header>
+    <!-- Navigation Bar
+      ================================================== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-boxes me-2"
+            viewBox="0 0 16 16">
+            <path
+              d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434L7.752.066ZM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567L4.25 7.504ZM7.5 9.933l-2.75 1.571v3.134l2.75-1.571V9.933Zm1 3.134 2.75 1.571v-3.134L8.5 9.933v3.134Zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567-2.742 1.567Zm2.242-2.433V3.504L8.5 5.076V8.21l2.75-1.572ZM7.5 8.21V5.076L4.75 3.504v3.134L7.5 8.21ZM5.258 2.643 8 4.21l2.742-1.567L8 1.076 5.258 2.643ZM15 9.933l-2.75 1.571v3.134L15 13.067V9.933ZM3.75 14.638v-3.134L1 9.933v3.134l2.75 1.571Z" />
+          </svg>
+          Cloudhub
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="./assets/brand/navbar-icon.png" alt="Menu" width="24" height="24">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Product
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Integrations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Developers</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center">
+            <button id="darkModeToggle" class="btn btn-link me-2">
+              <i class="bi bi-moon-fill"></i>
+            </button>
+            <a href="#" class="btn btn-login me-2">Login</a>
+            <a href="#" class="btn btn-free">Start for free</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content Area
+    ================================================== -->
+  <main>
+    <!-- Hero Section - Main Landing Area
+      ================================================== -->
+    <section class="hero">
+      <div class="container-fluid position-relative">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="hero-content">
+              <!-- Main heading -->
+              <h1 class="hero-heading my-4">
+                Create, inspect, and apply<br>
+                synthetic surveillance broadly.
+              </h1>
+
+              <!-- Subheading -->
+              <p class="hero-subheading my-4">
+                Start with a stunning homepage. Stay motivated without hurting your pocket.
+              </p>
+
+              <!-- CTA Buttons -->
+              <div class="mb-4 animate-fade-up delay-2">
+                <a href="#" class="btn btn-free btn-lg px-5">Start for free</a>
+              </div>
+
+              <!-- Secondary CTA -->
+              <div class="d-flex align-items-center justify-content-center item-hero-cta">
+                <span class="text-muted me-2">Want to talk or get a live demo?</span>
+                <a href="#" class="text-decoration-none text-dark">Get in touch →</a>
+              </div>
+
+
+            </div>
+            <div class="overlay-img">
+              <img src="./assets/brand/cloud-hub-layout.png" alt="Overlay Image" class="img-fluid">
+            </div>
+
+               <!-- Secondary CTA -->
+               <div class="item-hero-cta-mobile">
+                <span class="text-muted me-2">Want to talk or get a live demo?</span>
+                <a href="#" class="text-decoration-none text-dark">Get in touch →</a>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <!-- Partner Logo Slider
+      ================================================== -->
+    <section class="logo-slider">
+      <div class="container">
+        <div class="slider">
+          <div class="slide-track">
+            <!-- First set of slides -->
+            <div class="slide">
+              <img src="./assets/brand/patreon-logo.png" alt="Patreon" height="50">
+            </div>
+            <div class="slide">
+              <img src="./assets/brand/airbnb-logo.png" alt="Airbnb" height="50">
+            </div>
+            <div class="slide">
+              <img src="./assets/brand/fiberplane-logo.png" alt="Fiberplane" height="50">
+            </div>
+            <div class="slide">
+              <img src="./assets/brand/coinbase-logo.png" alt="Coinbase" height="50">
+            </div>
+            <div class="slide">
+              <img src="./assets/brand/griffin-logo.png" alt="Griffin" height="50">
+            </div>
+            <div class="slide">
+              <img src="./assets/brand/helpscout-logo.png" alt="HelpScout" height="50">
+            </div>
+            <div class="slide">
+              <img src="./assets/brand/plaid-logo.png" alt="Plaid" height="50">
+            </div>
+
+            <!-- Duplicate slides for seamless loop -->
+            <div class="slide">
+              <img src="./assets/brand/patreon-logo.png" alt="Patreon" height="50">
+            </div>
+            <div class="slide">
+              <img src="./assets/brand/airbnb-logo.png" alt="Airbnb" height="50">
+            </div>
+            <div class="slide">
+              <img src="./assets/brand/fiberplane-logo.png" alt="Fiberplane" height="50">
+            </div>
+            <div class="slide">
+              <img src="./assets/brand/coinbase-logo.png" alt="Coinbase" height="50">
+            </div>
+            <div class="slide">
+              <img src="./assets/brand/griffin-logo.png" alt="Griffin" height="50">
+            </div>
+            <div class="slide">
+              <img src="./assets/brand/helpscout-logo.png" alt="HelpScout" height="50">
+            </div>
+            <div class="slide">
+              <img src="./assets/brand/plaid-logo.png" alt="Plaid" height="50">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Share Features Section
+      ================================================== -->
+    <section class="share-section py-lg-5 py-md-4 py-sm-3">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="share-content">
+              <span class="share-badge">Share</span>
+              <h2 class="fw-bold my-3 text-wrap-heading">Share anything you’re working on.</h2>
+            </div>
+          
+            <p class=" mb-4 text-wrap-item">
+              Campsite has been instrumental in keeping designers aware of each others' work-in-progress in a way that
+              was previously slowing us down. It's also one of the only channels where.
+            </p>
+            <div class="share-wrap-list mb-4">
+              <span class="d-flex align-items-center">
+                <span class="share-icon-check d-flex align-items-center justify-content-center">
+                  <i class="bi bi-check2"></i>
+                </span>
+                <span>Coded</span>
+              </span>
+              <span class="d-flex align-items-center">
+                <span class="share-icon-check d-flex align-items-center justify-content-center">
+                  <i class="bi bi-check2"></i>
+                </span>
+                <span>100% Secure</span>
+              </span>
+            </div>
+            <a href="#" class="text-decoration-none text-danger"><i class="bi bi-play-circle-fill me-2"></i>See how it
+              works</a>
+          </div>
+          <div class="col-lg-6">
+            <div class="share-img-wrap animate-float">
+              <img src="./assets/brand/codebox.png" alt="Description of image" class="img-fluid rounded">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- User Feedback Section
+      ================================================== -->
+    <section class="feedback-section py-5">
+      <div class="container">
+        <div class="row align-items-center feedback-section-wrap">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="share-img-wrap">
+              <img src="./assets/brand/feedback.png" alt="Feedback illustration" class="img-fluid rounded">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="feedback-content">
+              <span class="share-badge">Feedback</span>
+              <h2 class="fw-bold text-wrap-heading my-3">Better feedback at the right time.</h2>
+            </div>
+            
+            <p class="mb-4 text-wrap-item">
+              Campsite has been instrumental in keeping designers aware of each others' work-in-progress in a way that
+              was previously slowing us down. It's also one of the only channels where.
+            </p>
+            <a href="#" class="text-decoration-none text-danger"><i class="bi bi-play-circle-fill me-2"></i>See how it
+              works</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Features Grid
+      ================================================== -->
+    <section class="features-section py-5">
+      <div class="container">
+        <!-- Heading -->
+        <div class="row mb-4">
+          <div class="col-12 text-center">
+            <p class="features-subheading">Best time here</p>
+
+            <h2 class="features-heading">Better feedback at the right time.</h2>
+          </div>
+        </div>
+
+        <!-- Full width image -->
+        <div class="row mb-5">
+          <div class="col-12">
+            <div class="feature-card-main bg-dark text-white animate-fade-up delay-1">
+              <div class="feature-card-content">
+                <div class="row align-items-center">
+                  <div class="col-md-12 col-sm-12 col-lg-6">
+                    <div class="feature-card-content-wrap mb-4">
+                      <img src="./assets/brand/cloudhub-icon.png" alt="cloud-hub-icon" class="avatar me-2">
+                      <div class="feature-card-content-wrap-text">
+                        <p class="text-white m-0">Cloudhub</p>
+                        <p class="text-muted m-0">2m ago in Brand</p>
+                      </div>
+                    </div>
+                    
+                    <!-- Add overlapping profiles -->
+                     <div class="d-flex align-items-center mb-4"> 
+                      <div class="profile-stack ">
+                        <div class="profile-circle" style="background-image: url('./assets/brand/avatar1.png')"></div>
+                        <div class="profile-circle" style="background-image: url('./assets/brand/avatar2.png')"></div>
+                        <div class="profile-circle" style="background-image: url('./assets/brand/avatar3.png')"></div>
+                      </div>
+                      <p class="text-white m-0 ps-3">
+                        3 people are looking for feedback this week
+                      </p>
+                     </div>
+                  
+                  </div>
+                  <div class="col-md-12 col-sm-12 col-lg-6 text-end">
+                    <a href="#" class="btn btn-danger px-4">View post</a>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Three columns -->
+        <div class="row g-4">
+          <!-- Mentions Feature -->
+          <div class="col-md-4">
+            <div class="feature-card bg-dark text-white p-4 animate-fade-up delay-2">
+              <img src="./assets/brand/mentions.png" width="40" height="40" alt="Mentions Feature" class=" mb-3 ">
+              <h5>Mentions</h5>
+              <p class="text-muted small">Mention anyone on your team to include them in a post.</p>
+            </div>
+          </div>
+
+          <!-- Polls Feature -->
+          <div class="col-md-4">
+            <div class="feature-card bg-dark text-white p-4 animate-fade-up delay-3">
+              <img src="./assets/brand/polls.png" width="40" height="40" alt="Polls Feature" class=" mb-3 ">
+              <h5>Polls</h5>
+              <p class="text-muted small">Get a quick gut check from the team on design options.</p>
+            </div>
+          </div>
+
+          <!-- Resolve Comments Feature -->
+          <div class="col-md-4">
+            <div class="feature-card bg-dark text-white p-4 animate-fade-up">
+              <img src="./assets/brand/resolve.png" width="40" height="40" alt="Resolve Comments Feature" class=" mb-3">
+              <h5>Resolve comments</h5>
+              <p class="text-muted small">Mark comments as resolved to keep the conversation focused.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Archive Progress Section
+      ================================================== -->
+    <section class="archive-section py-5">
+      <div class="container">
+        <!-- Heading -->
+        <div class="row my-4">
+          <div class="col-12 text-center">
+            <h2 class="display-4 fw-bold my-4">Your Archive of progress</h2>
+          </div>
+        </div>
+
+        <!-- Features Grid -->
+        <div class="row g-4">
+          <!-- Projects Card -->
+          <div class="col-md-6">
+            <div class="card border-0 p-4 h-100">
+              <div class="card-body">
+                <h3 class="item-heading mb-2">Projects</h3>
+                <p class="text-muted mb-4">Organize, follow, and archive.</p>
+                
+                <!-- Graph Container -->
+                <div class="graph-container bg-light rounded-3">
+                  <img src="./assets/brand/archrive-overview.png" alt="Graph" >            
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Member Profiles Card -->
+          <div class="col-md-6">
+            <div class="card border-0 p-4 h-100">
+              <div class="card-body">
+                <h3 class="item-heading mb-2">Member profiles</h3>
+                <p class="text-muted mb-4">Automatic portfolios of your work.</p>
+
+                <!-- Stats Container -->
+                <div class="stats-container bg-light rounded-3">
+                  <img src="./assets/brand/archrive-leads.png" alt="Graph">    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section
+      ================================================== -->
+    <section class="testimonials py-5">
+      <div class="container">
+        <div class="row g-4">
+          <!-- First Testimonial -->
+          <div class="col-md-6">
+            <div class="feedback-card p-4 rounded-4 animate-fade-up">
+              <div class="mb-4">
+                <img src="./assets/brand/logomark.png" alt="Company Icon" width="40" height="40">
+              </div>
+              <p class="mb-4">Cloudhub has emerged as an essential asset for the team at Patreon design. Amidst an accelerated expanding organization in which the product undergoes rapid changes, Campsite enables us to maintain visibility on what's transpiring across various teams — impeccably aligning with our pre-existing procedures.</p>
+              <div class="d-flex align-items-center">
+                <img src="./assets/brand/user-avtar2.png" alt="Profile" class="avatar me-3">
+                <div>
+                  <h6 class="mb-0">Gabriel Valdivia</h6>
+                  <small class="text-muted">Principal Product Designer, Patreon</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Testimonial -->
+          <div class="col-md-6">
+            <div class="feedback-card p-4 rounded-4 animate-fade-up">
+              <div class="mb-4">
+                <img src="./assets/brand/acme-group.png" alt="Star Icon" width="40" height="40">
+              </div>
+              <p class="mb-4">Cloudhub has demonstrated exceptional worth in preserving open communication among designers regarding their current endeavors, a challenge that previously impeded our progress. It continually stands as a distinctive platform guiding our dialogue towards imagination and consistent review, an element I highly value. Moreover, it has accelerated our propensity for early-stage feedback beyond my expectations.</p>
+              <div class="d-flex align-items-center">
+                <img src="./assets/brand/user-avtar1.png" alt="Profile" class="avatar me-3">
+                <div>
+                  <h6 class="mb-0">Buzz Usborne</h6>
+                  <small class="text-muted">Principal Designer, Buildkite</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Loved By Designers Section
+      ================================================== -->
+    <section class="loved-by-designers py-5">
+      <div class="container">
+        <!-- Heading -->
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="display-4 my-4 fw-bold">Loved By Designers At</h2>
+          </div>
+        </div>
+        
+        <!-- Logos Grid -->
+        <div class="row row-cols-2 row-cols-md-4 g-4">
+          <!-- First Row -->
+          <div class="col">
+            <div class="p-4 bg-light rounded-3 d-flex align-items-center justify-content-center">
+              <img src="./assets/brand/crowdstrike.png" alt="Crowdstrike" class="img-fluid">
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-4 bg-light rounded-3 d-flex align-items-center justify-content-center">
+              <img src="./assets/brand/airbus.png" alt="Airbus" class="img-fluid">
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-4 bg-light rounded-3 d-flex align-items-center justify-content-center">
+              <img src="./assets/brand/autodesk.png" alt="Hays" class="img-fluid">
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-4 bg-light rounded-3 d-flex align-items-center justify-content-center">
+              <img src="./assets/brand/sentry.png" alt="Sentry" class="img-fluid">
+            </div>
+          </div>
+          
+          <!-- Second Row -->
+          <div class="col">
+            <div class="p-4 bg-light rounded-3 d-flex align-items-center justify-content-center">
+              <img src="./assets/brand/medwing.png" alt="Medwing" class="img-fluid">
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-4 bg-light rounded-3 d-flex align-items-center justify-content-center">
+              <img src="./assets/brand/cathaypacific.png" alt="Cathay Pacific" class="img-fluid">
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-4 bg-light rounded-3 d-flex align-items-center justify-content-center">
+              <img src="./assets/brand/liquidweb.png" alt="Liquid Web" class="img-fluid">
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-4 bg-light rounded-3 d-flex align-items-center justify-content-center">
+              <img src="./assets/brand/autotrader.png" alt="AutoTrader" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Every Loop Section
+      ================================================== -->
+    <section class="every-loop text-white pt-5">
+      <div class="container-fluid">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-8">
+            <!-- Main heading -->
+            <h2 class="display-2 fw-bold mb-4">
+              Keep every one in the loop
+            </h2>
+
+            <!-- Subheading -->
+            <p class="lead mb-4">
+              All good things starts with a homepage. Get inspired without breaking your wallet.
+            </p>
+
+            <!-- CTA Button -->
+            <div class="mb-5">
+              <a href="#" class="btn btn-light btn-lg px-5">Start for free</a>
+            </div>
+
+            <!-- App Screenshot -->
+            <div class="app-screenshot">
+              <img src="./assets/brand/loop-advert.png" alt="App Interface" class="img-fluid rounded-4">
+              <div class="shine"></div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Promo CTA Section
+      ================================================== -->
+    <section class="promo-cta py-5">
+      <div class="container text-center py-5 my-5">
+        <!-- Logo Icon -->
+        <div class="cube-logo mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="#FF5C35">
+            <path d="M12 2l9 4v12l-9 4-9-4V6l9-4z"/>
+          </svg>
+        </div>
+        
+        <!-- Main heading -->
+        <h2 class="promo-heading mb-3">
+          Increase your team's visibility and alignment
+        </h2>
+
+        <!-- Subheading -->
+        <p class="promo-subheading mb-4">
+          Start for free, flexible for all teams.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="d-flex justify-content-center gap-3">
+          <a href="#" class="btn btn-outline-dark px-4">Request a demo</a>
+          <a href="#" class="btn btn-primary px-4">Start for free</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section
+      ================================================== -->
+  <footer class="py-5 border-top">
+    <!-- Footer Section
+      ================================================== -->
+    <div class="container">
+      <div class="row gy-4">
+        <!-- Logo and Description Column -->
+        <div class="col-12 col-lg-4 pe-lg-5">
+          <a class="navbar-brand d-flex align-items-center mb-3" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-boxes me-2"
+              viewBox="0 0 16 16">
+              <path d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434L7.752.066Z"/>
+            </svg>
+            Cloudhub
+          </a>
+          <p class="text-muted mb-4">Create, inspect, and apply synthetic surveillance broadly with our comprehensive platform.</p>
+        </div>
+
+        <!-- Navigation Columns -->
+        <div class="col-6 col-lg-2">
+          <h6 class="fw-bold mb-3">Product</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link-footer   p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link-footer p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link-footer p-0 text-muted">Processing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link-footer p-0 text-muted">Support</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h6 class="fw-bold mb-3">Legal</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link-footer p-0 text-muted">Terms of Service</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link-footer p-0 text-muted">Privacy Policy</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link-footer p-0 text-muted">Security</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h6 class="fw-bold mb-3">Company</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link-footer p-0 text-muted">Blog</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link-footer p-0 text-muted">Careers</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link-footer p-0 text-muted">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h6 class="fw-bold mb-3">Social</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link-footer p-0 text-muted">LinkedIn</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link-footer p-0 text-muted">Twitter</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link-footer p-0 text-muted">Discord</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center mt-4 pt-4 border-top">
+        <p class="text-muted mb-3 mb-sm-0">&copy; 2024 Cloud-Hub. All rights reserved.</p>
+        <div class="d-flex align-items-center">
+          <a href="#" class="text-muted me-3">Privacy Policy</a>
+          <a href="#" class="text-muted">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Script Section Mounted on DOMContentLoaded Event API
+      ================================================== -->
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom Script for Dark Mode -->
+  <script src="./assets/dist/js/darkmode.js"></script>
+
+  <!-- Custom Script for Animation -->
+  <script src="./assets/dist/js/animation.js"></script>
+</body>
+
+</html>
